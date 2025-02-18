@@ -12,9 +12,7 @@
 - [🛠️ Tech Stack](#-tech-stack)
 - [🚀 Installation Guide](#-installation-guide)
 - [📸 Screenshots](#-screenshots)
-- [🏆 Contributing](#-contributing)
-- [📜 License](#-license)
-
+  
 ---
 
 ## ✨ Features
@@ -77,6 +75,19 @@ npm run dev
 ---
 
 ## 📸 Screenshots
-| AI Chatbot | Career Selection | Mock Tests | Dashboard |
-|------------|----------------|------------|-----------|
-| ![Chatbot](screenshots/5.png) | ![Selection](screenshots/4.png) | ![Tests](screenshots/7.png) | ![Dashboard](screenshots/8.png) |
+
+### 🗨️ AI Chatbot
+![Chatbot](screenshots/5.png)
+___
+
+### 🎯 Career Selection
+![Selection](screenshots/4.png)
+___
+
+### 📝 Mock Tests
+![Tests](screenshots/7.png)
+___
+
+### 📊 Dashboard
+![Dashboard](screenshots/8.png)
+___
