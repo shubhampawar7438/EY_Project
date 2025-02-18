@@ -1,51 +1,82 @@
-<h1 align="center">🚀 Parallel Skill Worlds – AI-Driven Career Exploration</h1>
+# 🚀 Parallel Skill Worlds – AI-Driven Career Exploration
 
-<p align="center">
-  <img src="https://via.placeholder.com/1000x400?text=Parallel+Skill+Worlds" alt="Parallel Skill Worlds Banner">
-</p>
+![Parallel Skill Worlds Banner](screenshots/octane.png)
 
-<p align="center">
-  <b>🌟 The AI-powered platform for career discovery, skill testing, and personalized learning! 🌟</b><br>
-  <i>Explore careers, take skill-based mock tests, and track your progress – all in one place.</i>
-</p>
+> *🌟 AI-powered career guidance platform built with React, TypeScript, and Supabase! 🌟*  
+> Explore careers, take mock tests, and track your learning progress – all in one place.
 
 ---
 
-## 📌 *Table of Contents*
+## 📌 Table of Contents
 - [✨ Features](#-features)
-- [🖥️ Tech Stack](#️-tech-stack)
-- [🚀 Live Demo](#-live-demo)
-- [📦 Installation Guide](#-installation-guide)
+- [🛠️ Tech Stack](#-tech-stack)
+- [🚀 Installation Guide](#-installation-guide)
 - [📸 Screenshots](#-screenshots)
 - [🏆 Contributing](#-contributing)
 - [📜 License](#-license)
 
 ---
 
-## ✨ *Features*
-✅ *AI-Powered Career Chatbot* – Personalized career guidance  
-✅ *Manual Career Selection* – Directly pick careers of interest  
-✅ *Mock Tests* – Career-based quizzes with instant feedback  
-✅ *Learning Resources* – Study materials based on test results  
-✅ *Progress Tracking* – Dashboard for monitoring career growth  
-✅ *Secure Authentication* – JWT-based login system  
-✅ *Mobile-Friendly UI* – Fully responsive design  
+## ✨ Features
+✅ *AI-Powered Career Advisor* – Personalized career recommendations  
+✅ *Mock Tests & Instant Feedback* – Assess skills for chosen career paths  
+✅ *Secure Authentication* – Supabase-powered login system  
+✅ *Career Dashboard* – Track progress & study resources  
+✅ *Modern UI/UX* – Built with *React + Tailwind CSS*  
+✅ *Fast & Efficient* – Uses *Vite* for optimized performance  
+✅ *TypeScript Powered* – Ensuring scalability & maintainability  
 
 ---
 
-## 🖥️ *Tech Stack*
+## 🛠️ Tech Stack
 ### *Frontend:*
-- ⚛️ *React.js* – Interactive UI  
-- 🎨 *Tailwind CSS* – Beautiful & responsive styling  
-- 🔄 *Axios* – Smooth API communication  
+- ⚛️ *React (TypeScript)* – Interactive UI  
+- 🎨 *Tailwind CSS* – Responsive & modern styling  
+- ⚡ *Vite* – Ultra-fast build tool  
 
 ### *Backend:*
-- 🐍 *Flask* – Lightweight & powerful API  
-- 🏪 *MongoDB* – Database for user profiles & career data  
-- 🤖 *Ollama AI* – AI-driven chatbot for career guidance  
+- 🏪 *Supabase (PostgreSQL)* – Authentication & database storage  
+- 🔐 *Supabase Auth* – Secure user authentication  
 
 ### *Other Tools:*
-- 🔐 *JWT Authentication* – Secure login system  
-- 🔄 *React Router* – Seamless navigation  
+- 🧹 *ESLint* – Code linting for best practices  
+- 🎭 *PostCSS* – Advanced styling enhancements  
+- 🗄 *Database Migrations* – Supabase migration system  
 
 ---
+
+## 🚀 Installation Guide
+### 1️⃣ Clone the Repository
+sh
+
+git clone https://github.com/shubhampawar7438/EY_Project.git
+
+cd EY_Project-main
+
+
+### 2️⃣ Install Dependencies
+sh
+
+npm install
+
+
+### 3️⃣ Configure Supabase
+- Create a *Supabase project*  
+- Copy the *API keys* and update .env:
+env
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+
+### 4️⃣ Start the Development Server
+sh
+npm run dev
+
+🚀 *Visit:* http://localhost:3000/
+
+---
+
+## 📸 Screenshots
+| AI Chatbot | Career Selection | Mock Tests | Dashboard |
+|------------|----------------|------------|-----------|
+| ![Chatbot](screenshots/5.png) | ![Selection](screenshots/4.png) | ![Tests](screenshots/7.png) | ![Dashboard](screenshots/8.png) |
